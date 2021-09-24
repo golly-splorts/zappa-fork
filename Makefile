@@ -31,7 +31,7 @@ requirements:
 	pip install -r requirements.txt
 	pip install -r test_requirements.txt
 
-build: clean requirements-install
+build: clean requirements
 	python setup.py sdist
 	python setup.py bdist_wheel 
 
